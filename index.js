@@ -19,6 +19,6 @@ function sayHiToGrandma(string) {
 }
 function sayHiToGrandma(string) {
   var mixedCase = string
-  if (`${string}`.toLowerCase() === mixedCase) 
+  if (`${string}`.toUpperCase() === mixedCase) 
       return "YES INDEED!"
 }
