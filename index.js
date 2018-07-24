@@ -14,12 +14,22 @@ function logWhisper(string) {
 }
 function sayHiToGrandma(string) {
   var mixedCase = string
-  if (`${string}`.toLowerCase() === mixedCase) 
+  if (`${string}`.toLowerCase() === mixedCase) {
       return "I can't hear you!"
-   else (`${string}`.toUpperCase() === mixedCase) 
-      return "YES INDEED!"
+ }  else if (`${string}`.toUpperCase() === mixedCase) 
+      return "YES INDEED!" {
+   } else {
+     return "I love you, Grandma."
+   }
 }
 
+if (dog === "hungry") {
+  console.log("Refilling food bowl.")
+} else if (dog === "thirsty") {
+  console.log("Refilling water bowl.")
+} else {
+  console.log("Reading newspaper.")
+}
 
  
 }
