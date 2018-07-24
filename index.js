@@ -22,3 +22,17 @@ function sayHiToGrandma(string) {
       return "I love you, too."
     
 }
+
+} else if (dog === "thirsty") {
+  console.log("Refilling water bowl.")
+ 
+} else if (dog === "playful") {
+  console.log("Playing tug-of-war.")
+ 
+} else if (dog === "cuddly") {
+  console.log("Snuggling.")
+ 
+} else { 
+  console.log("Reading newspaper.")
+}
+ 
