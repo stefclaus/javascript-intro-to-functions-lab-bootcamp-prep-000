@@ -6,5 +6,5 @@ function whisper(string) {
 }
 function logShout("hello") {
   return string.toUpperCase()
-  console.log("hello")
+  console.log(logShout)
 }
