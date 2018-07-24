@@ -17,7 +17,6 @@ funtion sayHiToGrandma(string) {
   if (string.toUpperCase() === uppercase) {
     console.log("I can't hear you!")
 }
-  var uppercase = "HELLO!"
  
 uppercase.toUpperCase() === uppercase
 }
