@@ -17,7 +17,7 @@ function sayHiToGrandma(string) {
   if (`${string}`.toLowerCase() === mixedCase) 
       return "I can't hear you!"
    else (`${string}`.toUpperCase() === mixedCase) 
-      return "I can't hear you!"
+      return "YES INDEED!"
 }
 
 
